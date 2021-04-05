@@ -1,0 +1,16 @@
+﻿Posts:
+  test-post1:
+    Id: 1
+    Author: test
+    Content: test, test, test...
+  test-post2:
+    Id: 2
+    Author: test2
+    Content: second test
+Comments:
+  test-comment1:
+    PostId: 1
+    Content: first comment
+  test-comment2:
+    PostId: 2
+    Content: second comment
