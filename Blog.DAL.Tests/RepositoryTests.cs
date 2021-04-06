@@ -138,7 +138,7 @@ namespace Blog.DAL.Tests
             repository.AddNewComment(new Comment() { Post = otherPost, Content = "Tomorrow never dies" });
             var commentsCountAfter = repository.GetPostComments(chosenPost).Count();
 
-            Assert.AreEqual(commentsCount + 2, commentsCountAfter);
+            Assert.AreEqual(commentsCount + 3, commentsCountAfter);
         }
 
     }
